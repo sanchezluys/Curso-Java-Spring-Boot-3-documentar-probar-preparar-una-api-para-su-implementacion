@@ -20,6 +20,11 @@ public class ConsultaController {
     public ResponseEntity agendar(@RequestBody @Valid DatosAgendarConsulta datos){
         System.out.println(datos);
         //
-        return ResponseEntity.ok(new DatosDetalleConsulta(null, null, null, null));
+        return ResponseEntity.ok(
+                new DatosDetalleConsulta(
+                        null,
+                        null,
+                        null,
+                        null));
     }
 }

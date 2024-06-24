@@ -6,19 +6,22 @@
 
 ![img.png](img.png)
 
-| Clase | Descripción                                                         | Observaciones |
-|-------|---------------------------------------------------------------------|---------------|
-| 01-04 | Nueva funcionalidad                                                 |               |
-|       | se deifinen las nuevas opciones para agendar nueva cita             |               |
-|       | se definen las reglas de negocio                                    |               |
-|       |                                                                     |               |
-| 01-05 | Consulta controller                                                 |               |
-|       | Se crea la clase consultacontroller con las siguientes anotaciones: |               |
-|       | @Component, @ResponseBody, @RequestMapping("/consultas")            |               |
-|       | se crea el dto DatosAgendarConsulta                                 |               |
-|       | se crea el dto DatosDetalleConsulta                                 |               |
-|       | se crea la entidad Consulta                                         |               |
-|       |                                                                     |               |
+| Clase | Descripción                                                           | Observaciones |
+|-------|-----------------------------------------------------------------------|---------------|
+| 01-04 | Nueva funcionalidad                                                   |               |
+|       | se deifinen las nuevas opciones para agendar nueva cita               |               |
+|       | se definen las reglas de negocio                                      |               |
+|       |                                                                       |               |
+| 01-05 | Consulta controller                                                   |               |
+|       | Se crea la clase consultacontroller con las siguientes anotaciones:   |               |
+|       | @Component, @ResponseBody, @RequestMapping("/consultas")              |               |
+|       | se crea el dto DatosAgendarConsulta                                   |               |
+|       | se crea el dto DatosDetalleConsulta                                   |               |
+|       | se crea la entidad Consulta                                           |               |
+|       | se agregan los dto para pacientes                                     |               |
+|       | se agregan las migraciones de crear tabla pacientes y tabla consultas |               |
+|       |                                                                       |               |
+|       |                                                                       |               |
 
 
 ## Reglas del Negocio
@@ -51,3 +54,10 @@
     Es obligatorio informar el motivo de la cancelación de la consulta, entre las opciones: paciente se retiró, médico canceló u otras;
     Una cita solo se puede cancelar con al menos 24 horas de anticipación.
 
+### Payload para agregar nueva consulta
+
+    {
+        "idPaciente":"1",
+        "idMedico":"1",
+        "fecha":"2024:11:12T10:30"
+    }

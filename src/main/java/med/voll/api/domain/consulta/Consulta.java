@@ -32,6 +32,4 @@ public class Consulta {
 
     private LocalDateTime data;
 
-
-
 }
