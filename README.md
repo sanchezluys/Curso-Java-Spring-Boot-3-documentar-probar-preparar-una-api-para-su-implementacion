@@ -6,17 +6,19 @@
 
 ![img.png](img.png)
 
-| Clase | Descripción                                             | Observaciones |
-|-------|---------------------------------------------------------|---------------|
-| 01-04 | Nueva funcionalidad                                     |               |
-|       | se deifinen las nuevas opciones para agendar nueva cita |               |
-|       | se definen las reglas de negocio                        |               |
-|       |                                                         |               |
-|       |                                                         |               |
-|       |                                                         |               |
-|       |                                                         |               |
-|       |                                                         |               |
-|       |                                                         |               |
+| Clase | Descripción                                                         | Observaciones |
+|-------|---------------------------------------------------------------------|---------------|
+| 01-04 | Nueva funcionalidad                                                 |               |
+|       | se deifinen las nuevas opciones para agendar nueva cita             |               |
+|       | se definen las reglas de negocio                                    |               |
+|       |                                                                     |               |
+| 01-05 | Consulta controller                                                 |               |
+|       | Se crea la clase consultacontroller con las siguientes anotaciones: |               |
+|       | @Component, @ResponseBody, @RequestMapping("/consultas")            |               |
+|       | se crea el dto DatosAgendarConsulta                                 |               |
+|       | se crea el dto DatosDetalleConsulta                                 |               |
+|       | se crea la entidad Consulta                                         |               |
+|       |                                                                     |               |
 
 
 ## Reglas del Negocio
