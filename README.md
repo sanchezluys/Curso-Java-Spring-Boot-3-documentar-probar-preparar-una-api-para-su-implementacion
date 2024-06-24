@@ -1,6 +1,8 @@
-Inicializando Readme
+Curso:
+Instructor:
+Academia: Alura Latam
+Programa: One Next Oracle Education
 
-Objetivos
 
 ![img.png](img.png)
 
