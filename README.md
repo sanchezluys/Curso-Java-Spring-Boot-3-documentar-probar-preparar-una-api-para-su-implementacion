@@ -27,6 +27,9 @@
 |       | 1. consultacontroller debia ser marcada con @controller y no con @component |               |
 |       | 2. el payload para agregar la consulta era con guiones 2024-10-10           |               |
 |       | se crea el service agendadeconsultaservice                                  |               |
+|       | - se debe respetar el principio de responsabilidad unica                    |               |
+|       | se separan las las reposnabilidades de cada clase                           |               |
+|       | se crea el repositorio                                                      |               |
 
 
 ## Reglas del Negocio
