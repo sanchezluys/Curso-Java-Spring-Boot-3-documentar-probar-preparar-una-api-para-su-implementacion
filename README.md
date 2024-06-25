@@ -6,22 +6,27 @@
 
 ![img.png](img.png)
 
-| Clase | Descripción                                                           | Observaciones |
-|-------|-----------------------------------------------------------------------|---------------|
-| 01-04 | Nueva funcionalidad                                                   |               |
-|       | se deifinen las nuevas opciones para agendar nueva cita               |               |
-|       | se definen las reglas de negocio                                      |               |
-|       |                                                                       |               |
-| 01-05 | Consulta controller                                                   |               |
-|       | Se crea la clase consultacontroller con las siguientes anotaciones:   |               |
-|       | @Component, @ResponseBody, @RequestMapping("/consultas")              |               |
-|       | se crea el dto DatosAgendarConsulta                                   |               |
-|       | se crea el dto DatosDetalleConsulta                                   |               |
-|       | se crea la entidad Consulta                                           |               |
-|       | se agregan los dto para pacientes                                     |               |
-|       | se agregan las migraciones de crear tabla pacientes y tabla consultas |               |
-|       |                                                                       |               |
-|       |                                                                       |               |
+| Clase | Descripción                                                                 | Observaciones |
+|-------|-----------------------------------------------------------------------------|---------------|
+| 01-04 | Nueva funcionalidad                                                         |               |
+|       | se deifinen las nuevas opciones para agendar nueva cita                     |               |
+|       | se definen las reglas de negocio                                            |               |
+|       |                                                                             |               |
+| 01-05 | Consulta controller                                                         |               |
+|       | Se crea la clase consultacontroller con las siguientes anotaciones:         |               |
+|       | @Component, @ResponseBody, @RequestMapping("/consultas")                    |               |
+|       | se crea el dto DatosAgendarConsulta                                         |               |
+|       | se crea el dto DatosDetalleConsulta                                         |               |
+|       | se crea la entidad Consulta                                                 |               |
+|       | se agregan los dto para pacientes                                           |               |
+|       | se agregan las migraciones de crear tabla pacientes y tabla consultas       |               |
+|       |                                                                             |               |
+| 01-08 | Clase Service                                                               |               |
+|       | se revisan las validaciones basandose en las reglas del negocio             |               |
+|       | se corrige errores,                                                         |               |
+|       | 1. consultacontroller debia ser marcada con @controller y no con @component |               |
+|       | 2. el payload para agregar la consulta era con guiones 2024-10-10           |               |
+|       | se crea el service agendadeconsultaservice                                  |               |
 
 
 ## Reglas del Negocio
@@ -59,5 +64,5 @@
     {
         "idPaciente":"1",
         "idMedico":"1",
-        "fecha":"2024:11:12T10:30"
+        "fecha":"2024-11-12T10:30"
     }
