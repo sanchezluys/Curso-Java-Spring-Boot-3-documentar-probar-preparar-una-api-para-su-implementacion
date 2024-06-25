@@ -30,6 +30,10 @@
 |       | - se debe respetar el principio de responsabilidad unica                    |               |
 |       | se separan las las reposnabilidades de cada clase                           |               |
 |       | se crea el repositorio                                                      |               |
+|       |                                                                             |               |
+| 01-09 | Validaciones de integridad                                                  |               |
+|       | se crea la excepcion validaciondeintegridad                                 |               |
+|       | tambien el metodo seleccionar medico.                                       |               |
 
 
 ## Reglas del Negocio
