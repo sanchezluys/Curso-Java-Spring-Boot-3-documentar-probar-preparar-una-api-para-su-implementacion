@@ -34,6 +34,10 @@
 | 01-09 | Validaciones de integridad                                                  |               |
 |       | se crea la excepcion validaciondeintegridad                                 |               |
 |       | tambien el metodo seleccionar medico.                                       |               |
+|       |                                                                             |               |
+| 01-11 | Selección medico aleatorio                                                  |               |
+|       | crear la validaciones con @query                                            |               |
+|       |                                                                             |               |
 
 
 ## Reglas del Negocio
