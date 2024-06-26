@@ -38,6 +38,12 @@
 | 01-11 | Selección medico aleatorio                                                  |               |
 |       | crear la validaciones con @query                                            |               |
 |       |                                                                             |               |
+| 02-02 | Clases de validación                                                        |               |
+|       | se crea el paquete validaciones en consulta                                 |               |
+|       | se crea la clase HorarioDeFuncionamientoClinica para validar horario        |               |
+|       | se crea la clase HorarioDeAnticipacion para validar 1/2 hora antes          |               |
+|       | se crea la clase PacienteActivo                                             |               |
+|       |                                                                             |               |
 
 
 ## Reglas del Negocio
