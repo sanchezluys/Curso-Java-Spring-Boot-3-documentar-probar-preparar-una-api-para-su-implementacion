@@ -44,6 +44,9 @@
 |       | se crea la clase HorarioDeAnticipacion para validar 1/2 hora antes          |               |
 |       | se crea la clase PacienteActivo                                             |               |
 |       |                                                                             |               |
+| 02-03 | Validación                                                                  |               |
+|       | se crea el metodo en PacienteRepository   findActivoById()                  |               |
+|       |                                                                             |               |
 
 
 ## Reglas del Negocio

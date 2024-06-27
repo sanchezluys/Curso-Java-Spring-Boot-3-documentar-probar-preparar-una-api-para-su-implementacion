@@ -13,5 +13,7 @@ public class PacienteActivo {
         if(datos.idPaciente() == null){
             return;
         }
+
+        var pacienteActivo=PacienteRepository.findActivoById(datos.idPaciente());
     }
 }
