@@ -61,7 +61,7 @@
 | 02-06 | Testando la agenda                                                                                  |                         |
 |       | se procede a ejecutar el programa para revisar errores                                              | ![img_1.png](img_1.png) |
 |       |                                                                                                     | ![img_2.png](img_2.png) |
-|       |                                                                                                     |                         |
+| 03-02 | Documentando con SpringDoc                                                                          |                         |
 |       |                                                                                                     |                         |
 
 
