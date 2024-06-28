@@ -7,12 +7,16 @@ import org.springframework.data.jpa.repository.Query;
 
 public interface PacienteRepository extends JpaRepository<Paciente, Long> {
 
+
     @Query("""
-            select p.activ
+            select p.activo
             from Paciente p
-            where p.idPaciente = :idPaciente
+            where p.id = :idPaciente
             """)
-    Boolean findActivoById(Long idPaciente);
+    static Boolean findActivoById(Long idPaciente) {
+        return null;
+    }
+
 
     Page<Paciente> findByActivoTrue(Pageable paginacion);
 }

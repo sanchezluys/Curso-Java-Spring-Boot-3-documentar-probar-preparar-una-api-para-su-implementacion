@@ -46,7 +46,7 @@
 |       |                                                                             |               |
 | 02-03 | Validación                                                                  |               |
 |       | se crea el metodo en PacienteRepository   findActivoById()                  |               |
-|       |                                                                             |               |
+|       | se crea la validacion PacienteSinConsulta asi como la PacienteActivo        |               |
 
 
 ## Reglas del Negocio

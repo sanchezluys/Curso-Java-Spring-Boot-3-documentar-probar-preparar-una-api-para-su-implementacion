@@ -13,15 +13,15 @@ public interface MedicoRepository extends JpaRepository<Medico, Long> {
     Page<Medico> findByActivoTrue(Pageable paginacion);
 
     @Query("""
-            select  m 
-            from 
+            select  m
+            from
                     Medico m
-            where 
+            where
                     m.activo= 1 and m.especialidad=:especialidad 
                     and m.id not in(
                         select c.medico.id 
                         from Consulta c
-                        where c.data=: fecha
+                        where c.data=:fecha
                     )
             order by rand()
             limit 1
